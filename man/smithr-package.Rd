@@ -4,9 +4,9 @@
 \name{smithr-package}
 \alias{smithr}
 \alias{smithr-package}
-\title{smithr: What the Package Does (One Line, Title Case)}
+\title{smithr: A Collection of Useful Functions}
 \description{
-What the package does (one paragraph).
+{smithr} is a collection of functions that I or others have found useful over time.
 }
 \seealso{
 Useful links:
@@ -18,7 +18,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Jesse Smith \email{jesse96smith@gmail.com}
 
 }
 \keyword{internal}

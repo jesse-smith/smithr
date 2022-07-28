@@ -1,10 +1,10 @@
 Package: smithr
-Title: What the Package Does (One Line, Title Case)
+Title: A Collection of Useful Functions
 Version: 0.0.0.9001
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Jesse", "Smith", , "jesse96smith@gmail.com", role = c("aut", "cre"))
+Description: {smithr} is a collection of functions that I or others have found
+    useful over time.
 License: MIT + file LICENSE
 URL: https://github.com/jesse-smith/smithr,
     https://jesse-smith.github.io/smithr/
@@ -20,4 +20,6 @@ ByteCompile: true
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
+Imports: 
+    checkmate

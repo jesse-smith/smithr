@@ -21,42 +21,31 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/jesse-smith/smithr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jesse-smith/smithr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of smithr is to ...
+`{smithr}` is a collection of functions I or others have found useful over time.
+It is designed to have minimal dependencies, nearly all of them `Suggest`ed
+rather than `Import`ed, so you only install what you need.
 
 ## Installation
 
-You can install the development version of smithr like so:
+You can install the development version of `{smithr}` like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+if (!"remotes" %in% installed.packages()) install.packages("remotes")
+remotes::install_github("jesse-smith/smithr")
 ```
+## Caution
 
-## Example
+The functions here are not intended to be as general as possible; they
+mostly focus on my own use cases. I would suggest browsing the source code to
+ensure that a function does what you intend before using it in your own code.
 
-This is a basic example which shows you how to solve a common problem:
+## Licensing
 
-```{r example}
-library(smithr)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+Since the package is modular, code may be licensed differently for functionality
+with different dependencies. All of my own code is MIT licensed.
 
 ## Code of Conduct
 
-Please note that the smithr project is released with a [Contributor Code of Conduct](https://jesse-smith.github.io/smithr/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+Please note that the smithr project is released with a [Contributor Code of Conduct](https://jesse-smith.github.io/smithr/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
 椀੮
