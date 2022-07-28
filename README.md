@@ -7,6 +7,9 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/smithr)](https://CRAN.R-project.org/package=smithr)
+[![Codecov test
+coverage](https://codecov.io/gh/jesse-smith/smithr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jesse-smith/smithr?branch=main)
+[![R-CMD-check](https://github.com/jesse-smith/smithr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jesse-smith/smithr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of smithr is to …
