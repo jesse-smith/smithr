@@ -7,6 +7,9 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/smithr)](https://CRAN.R-project.org/package=smithr)
+[![Codecov test
+coverage](https://codecov.io/gh/jesse-smith/smithr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jesse-smith/smithr?branch=main)
+[![R-CMD-check](https://github.com/jesse-smith/smithr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jesse-smith/smithr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of smithr is to …
@@ -54,3 +57,9 @@ You can also embed plots, for example:
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.
+
+## Code of Conduct
+
+Please note that the smithr project is released with a [Contributor Code
+of Conduct](https://jesse-smith.github.io/smithr/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms. 椀੮

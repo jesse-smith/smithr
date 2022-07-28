@@ -6,9 +6,11 @@ Authors@R:
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
-URL: https://github.com/jesse-smith/smithr
+URL: https://github.com/jesse-smith/smithr,
+    https://jesse-smith.github.io/smithr/
 BugReports: https://github.com/jesse-smith/smithr/issues
 Suggests: 
+    covr,
     devtools,
     fledge,
     renv,
